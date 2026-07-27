@@ -4,3 +4,23 @@ body {
 h1,h2,h3,h4,h5,h6 {
     color: #121111;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:250px;
+    background-color:black;
+}
+
+li a{
+    display:block;
+    color:white;
+    padding:8px 16px;
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color:#784141;
+    color:thistle
+}
